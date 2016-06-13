@@ -1,0 +1,35 @@
+
+Poco:
+
+  http://pocoproject.org/docs/00200-DataUserManual.html
+  
+	https://msdn.microsoft.com/en-us/library/ms235636(v=vs.80).aspx
+
+	buildwin.cmd 120 build all release x64 samples tests msbuild
+	buildwin.cmd 120 build all release Win32 samples tests msbuild
+
+
+	buildwin VS_VERSION [ACTION] [LINKMODE] [CONFIGURATION] [PLATFORM] [SAMPLES] [TESTS] [TOOL]
+	VS_VERSION:    90|100|110|120|140
+	ACTION:        build|rebuild|clean
+	LINKMODE:      static_mt|static_md|shared|all
+	CONFIGURATION: release|debug|both
+	PLATFORM:      Win32|x64|WinCE|WEC2013
+	SAMPLES:       samples|nosamples
+	TESTS:         tests|notests
+	TOOL:          devenv|vcexpress|wdexpress|msbuild
+
+	http://pocoproject.org/docs-1.5.2/Poco.JSON.Object.html
+
+	http://pocoproject.org/docs/00200-DataUserManual.html
+
+
+
+boost:
+	https://sourceforge.net/projects/boost/files/boost-binaries/1.61.0/
+
+
+openssl
+	http://pocoproject.org/docs/00200-GettingStarted.html
+		http://slproweb.com/products/Win32OpenSSL.html
+			http://slproweb.com/download/Win32OpenSSL-1_0_2h.exe
